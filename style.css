@@ -1,29 +1,46 @@
-header {
-background-color: blue;
+* {
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+header, footer {
+background: orange;
+height: 50px;
+margin: 10px 0;
 }
 
 nav {
-background-color: green;
+    background: yellow;
+    height: 50px;
+    margin: 10px 0;
 }
 
 section {
-background-color: yellow;
+    background: darkgray;
+    float: left;
+    width: 50%;
+    
 }
 
 article {
-background-color: red;
+    background: lightblue;
+    padding: 10px;
+    width: 50%;
+    height: 200px;
+    
 }
-
 div {
-background-color: grey;
+    background: green;
+    padding: 5px;
 }
-
 aside {
-background-color: orange;
+    background: aquamarine;
+    float: left;
+    width: 50%;
+    height: 200px;
 }
-
-footer {
-background-color: brown;
-}
-
-
